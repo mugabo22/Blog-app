@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    p.{
+      font-size: large;
+    }
+  </style>
   <title>Document</title>
-  <a href="about.html">About Page</a>
-  <a href="add.html">Add Blog</a>
-  <a href="contact.html">ContactUs</a>
-  <a href="home.html">Home Page</a>
-  <a href="new.html">New Blogs</a>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
 </head>
-<body>
-  
+<body style="background-color: gray;">
+  <div class="">
+    <h1 class="text-"></h1>
+    <div id="carouselExample" class="carousel slide">
+      <div>
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="contact.html">ContactUs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="add.html">Add Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                    <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<center>
+  <p>CONTACT US</p>
+  <div class="card w-28 bg-dark">
+    <div class="card-header">
+      Information
+    </div>
+    <form style="width: 200px; margin-left: 20rem; color: white;">
+      <div class="mb-3">
+        <label for=" sampleInputEmail" class="form-label">First Name</label>
+        <input type="text" class="form-control" id=" text" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for=" sampleInputEmail" class="form-label">First Name</label>
+        <input type="text" class="form-control" id=" text" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for=" sampleInputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id=" email aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="sampleInputPassword" class="form-label">Description</label>
+        <textarea name="Complaint" id="textarea" style="height: 5rem; width: 15rem;"></textarea>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="sampleCheck">
+        <label class="form-check-label" for="sampleCheck">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
+  </div>
+</center>
 </body>
 </html>
