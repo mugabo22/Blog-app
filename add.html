@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap - Breakpoint</title>
+  <title>AddBlog</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,22 +19,40 @@
 </style>
 </head>
 <body>
-
-  <h5>This block visible on all devices</h5>
-  <div class="container-fluid mt-2">
-    <div class="row">
-      <div class="col-xxl-3 bg-primary text-black p-3">
-        xxl-3 primary
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html">ContactUs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="author.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add.html">Add Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
       </div>
+  </nav>
+  <center>
+    <div class="card mt-5" style="height: 17rem; width: 23rem;">
+      <p><b>Choose a name for your blog</b></p>
+      <p>This is the title that will happen on your blog</p>
+      <form action="">
+        <input type="text" name="title" placeholder="title">
+        <input type="">
+      </form>
     </div>
-  </div>
-  <h5>This block not visible all devices larger than sm</h5>
-  <div class="container-fluid mt-2 custom-class">
-    <div class="row">
-      <div class="col-lg-6  bg-warning text-black p-3">
-        lg-6 warning
-      </div>
-    </div>
-  </div>
+  </center>
 </body>
 </html>

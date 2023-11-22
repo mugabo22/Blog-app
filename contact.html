@@ -6,18 +6,18 @@
       font-size: large;
     }
   </style>
-  <title>Document</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: gray;">
+<body style="background-color: mediumseagreen;">
   <div class="">
     <h1 class="text-"></h1>
     <div id="carouselExample" class="carousel slide">
-      <div>
-        <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark mt-0">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">HOME</a>
+            <a class="navbar-brand" href="home.html"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,25 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link " href="home.html">Home</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link " href="contact.html">ContactUs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About us</a>
+                  <a class="nav-link" href="author.html">About us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="add.html">Add Blog</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Blog
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Blog 1</a></li>
-                    <li><a class="dropdown-item" href="#">Blog 2</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="new.html">New blogs</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -52,14 +43,19 @@
               </form>
             </div>
         </nav>
+      </div>
     </div>
 </div>
-<center>
-  <p>CONTACT US</p>
-  <div class="card w-28 bg-dark">
-    <div class="card-header">
+<div style="margin-top: 3rem;">
+  <center>
+    <p style="font-size: x-large; color: white; margin-top: 5rem;"><b>CONTACT US</b></p>
+  </center>
+  <div class="card w-28 bg-dark" style="height: 40rem;">
+   <center>
+    <div class="card-header text-white">
       Information
     </div>
+   </center>
     <form style="width: 200px; margin-left: 20rem; color: white;">
       <div class="mb-3">
         <label for=" sampleInputEmail" class="form-label">First Name</label>
@@ -74,16 +70,13 @@
         <input type="email" class="form-control" id=" email aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
-        <label for="sampleInputPassword" class="form-label">Description</label>
+        <label for="sampleInputPassword" class="form-label">Querry</label>
         <textarea name="Complaint" id="textarea" style="height: 5rem; width: 15rem;"></textarea>
       </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="sampleCheck">
-        <label class="form-check-label" for="sampleCheck">Remember me</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Log in</button>
+      <input type="submit" name="submit" value="Submit" style="background-color: blue;">
+      <input type="reset" name="reset" value="Reset" style="background-color: blue;">
     </form>
   </div>
-</center>
+</div>
 </body>
 </html>

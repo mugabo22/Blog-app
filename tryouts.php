@@ -2,9 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
-    <title>Home Page</title>
+  <title>head</title>
+  <?php include "includes/head.php";?> 
 </head>
 <body>
   <div class="">
@@ -77,19 +76,7 @@
       </center>
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <footer>
-        <p>This is the footer Use class .navbar-brand for a company, product, or project name.
-          Use .navbar-nav for full-height, lightweight navigation (includes support for dropdowns). 
-          Use class .navbar-toggler with collapse plugin for navigational toggling behavior.     
-          Use class .navbar-text for adding vertically centered strings of text..
-          Use .collapse.navbar-collapse to the group and collapse the navbar content by a parent breakpoint.
-          Use .navbar-scroll to set the maximum height and scroll the expanded content of the navbar.
-        </p>
-      </footer>
-    </div>
-  </div>
+  <p>hnsbbsbsbsbsbsbbsbs</p>
 </body>
 
 </html>
