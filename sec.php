@@ -19,10 +19,3 @@
     break
     }
 ?>
-<?php
-    $set=4.343434;
-    $den=2.3433
-    $def= $set+ $den
-    print ("$def=$den + $set")
-   
-?>

@@ -36,7 +36,5 @@
     echo (" <br> this while loop ");
     
     while($d==6)
-
-
 ?>
 
