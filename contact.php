@@ -59,15 +59,15 @@
     <form style="width: 200px; margin-left: 20rem; color: white;">
       <div class="mb-3">
         <label for=" sampleInputEmail" class="form-label">First Name</label>
-        <input type="text" class="form-control" id=" text" aria-describedby="emailHelp">
+        <input type="text" name="first_name">
       </div>
       <div class="mb-3">
-        <label for=" sampleInputEmail" class="form-label">First Name</label>
-        <input type="text" class="form-control" id=" text" aria-describedby="emailHelp">
+        <label for=" sampleInputEmail" class="form-label">Second Name</label>
+        <input type="text" name="second_name">
       </div>
       <div class="mb-3">
         <label for=" sampleInputEmail" class="form-label">Email</label>
-        <input type="email" class="form-control" id=" email aria-describedby="emailHelp">
+        <input type="email" name="email" class="form-control" id=" email aria-describedby="emailHelp">
       </div>
       <div class="mb-3">
         <label for="sampleInputPassword" class="form-label">Querry</label>
