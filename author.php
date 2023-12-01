@@ -9,7 +9,7 @@
     <div class="row bg-dark" style="border: 4px solid black;">
         <nav class="navbar navbar-expand-lg bg-transparent text-white">
             <div class="container-fluid">
-              <a class="navbar-brand" href="home.html"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
+              <a class="navbar-brand" href="home.php"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -17,17 +17,17 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                   </li>
       
                   <li class="nav-item">
-                    <a class="nav-link" href="author.html">About Us</a>
+                    <a class="nav-link" href="author.php">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="add.html">Add Blog</a>
+                    <a class="nav-link" href="add.php">Add Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="new.html">NewBLogs</a>
+                    <a class="nav-link" href="gene.php">NewBLogs</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">

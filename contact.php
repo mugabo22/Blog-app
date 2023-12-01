@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <style>
-    p.{
+    .p{
       font-size: large;
     }
   </style>
@@ -17,7 +17,7 @@
       <div class="fixed-top">
         <nav class="navbar navbar-expand-lg bg-dark mt-0">
           <div class="container-fluid">
-            <a class="navbar-brand" href="home.html"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
+            <a class="navbar-brand" href="home.php"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -25,16 +25,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link " href="contact.html">ContactUs</a>
+                  <a class="nav-link " href="contact.php">ContactUs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="author.html">About us</a>
+                  <a class="nav-link" href="author.php">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="add.html">Add Blog</a>
+                  <a class="nav-link" href="add.php">Add Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="new.html">New blogs</a>
+                  <a class="nav-link" href="new.php">New blogs</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -56,25 +56,24 @@
       Information
     </div>
    </center>
-    <form style="width: 200px; margin-left: 20rem; color: white;">
+    <form action="Includes/contactpro.php" method="post" style="width: 200px; margin-left: 20rem; color: white;">
       <div class="mb-3">
-        <label for=" sampleInputEmail" class="form-label">First Name</label>
+        <label for=" " class="form-label">First Name</label>
         <input type="text" name="first_name">
       </div>
       <div class="mb-3">
-        <label for=" sampleInputEmail" class="form-label">Second Name</label>
+        <label for=" l" class="form-label">Second Name</label>
         <input type="text" name="second_name">
       </div>
       <div class="mb-3">
         <label for=" sampleInputEmail" class="form-label">Email</label>
-        <input type="email" name="email" class="form-control" id=" email aria-describedby="emailHelp">
+        <input type="email" name="email" class="form-control">
       </div>
       <div class="mb-3">
-        <label for="sampleInputPassword" class="form-label">Querry</label>
-        <textarea name="Complaint" id="textarea" style="height: 5rem; width: 15rem;"></textarea>
+        <label class="form-label">Problem</label>
+        <textarea name="complaint" style="height: 5rem; width: 15rem;"></textarea>
       </div>
       <input type="submit" name="submit" value="Submit" style="background-color: blue;">
-      <input type="reset" name="reset" value="Reset" style="background-color: blue;">
     </form>
   </div>
 </div>

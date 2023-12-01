@@ -2,11 +2,25 @@
 <html lang="en">
 <head>
     <style>
-        
+        .fa-facebook {
+        color: white;
+        font: size 23px;
+        }
+
+        .fa-twitter {
+        color: white;
+        font-size: xx-large;
+        }
+
+        .fa-google {
+        color: white;
+        font-size: xx-large;
+        }
         .bottom-left {
           position: absolute;
           bottom: 8px;
           left: 16px;
+          
         }
         
         .top-left {
@@ -44,10 +58,11 @@
             margin-left: 3px;
             text-align: center;
         }
-        </style>
+    </style>
     <title>Home page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color:mediumseagreen;">
     <div class="">
@@ -56,26 +71,26 @@
             <div class="fixed-top">
                 <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="home.html"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a></a>
+                    <a class="navbar-brand" href="home.php"><img src="https://th.bing.com/th?q=Home+Icon+Jpg&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=UG&setlang=en&adlt=moderate&t=1&mw=247" alt="Home" width="40" height="40"></a></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                            <a class="nav-link active" aria-current="page" href="contact.php">Contact Us</a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="author.html">About us</a>
+                            <a class="nav-link" href="author.php">About us</a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="add.html">Add Blog</a>
+                            <a class="nav-link" href="add.php">Add Blog</a>
                         </li>
             
                         <li class="nav-item">
-                            <a class="nav-link" href="gene.html">Blogs</a>
+                            <a class="nav-link" href="gene.php">Blogs</a>
                         </li>
             
                         </ul>
@@ -222,13 +237,11 @@
                     </ul>
                 </div>
                 <div class="col-lg-2">
-                    <h2>Terms</h2>
-                    <ul>
-                        <li>Terms of use</li>
-                        <li>Privacy Policy</li>
-                        <li>Refund Policy</li>
-                        <li>Cookies Policy</li>
-                        <li>FAQ</li>
+                    <h2>Contact</h2>
+                    <ul style='color:white;'>
+                        <li><a href="" class="fa fa-facebook"></a></li>
+                        <li><a href=""><i class="fa fa-google"></i></a></li> 
+                        <li><a href="www.twitter.com/mugaboronald111" class="fa fa-twitter"></a></li>
                     </ul>
                 </div>
             </div>

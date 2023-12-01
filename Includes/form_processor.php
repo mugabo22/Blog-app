@@ -9,11 +9,10 @@ if(!$stmt){
 }
 mysqli_stmt_bind_param($stmt, "sss",$title,$description,$author);
 $title=$_POST["title"];
-
 $description=$_POST["description"];
 $author=$_POST["author"];
 if (mysqli_stmt_execute($stmt)) {   
-    echo "Created Sucessfully";
+    header("Location:../add.php");
 } else {
     echo "Execute Failed". mysqli_error($connection);
 }
