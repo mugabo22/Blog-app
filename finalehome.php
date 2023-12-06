@@ -45,16 +45,16 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="im1.jpg"  width="100%" height="700rem" alt="...">
-                <div class="posit">
+                <div class="posit" style="color:orchid;">
                     <h1>Publish Your Passions, Your way</h1>
-                    <p><dfn>Get in touch with us about all blogs currently</dfn></p>
+                    <p style="color:black; font-size:larger;"><dfn>Get in touch with us about all blogs currently</dfn></p>
                     <p><dfn>Publish Your blog here</dfn></p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="Imagess/name.jpg"  width="100%" height="700rem" alt="...">
                 <div class="admins">
-                    <h1>Nemissis was good and far.....</h1>
+                    <h1>Nemissis was good But too far.....</h1>
                     <p><dfn>Get in touch with us about all blogs currently</dfn></p>
                     <p><dfn>Publish Your blog here</dfn></p>
                 </div>

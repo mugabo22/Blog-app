@@ -27,7 +27,7 @@
                 require_once "./dbcon.php";
                 $query = "SELECT * FROM add_blog";
                 $result=mysqli_query($connection,$query);
-                $imageURL = $_FILES['image'];
+                $imageURL = $_FILES['image'][''];
                 if (!$result){
                     die("Querry Failed".mysqli_error($connection));
                 } else{

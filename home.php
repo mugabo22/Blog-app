@@ -110,7 +110,7 @@
         </div>
         <div class="col-lg-3" style="margin-left: 2rem;">
             <div class="">
-                <img src="im3.jpg" style="margin-left: 1rem;" width="400" height="200" alt="....">
+                <img src="Imagess/mugabo.jpg" style="margin-left: 1rem;" width="400" height="200" alt="....">
                 <div class="card" style="width: 400px; height: 17rem; margin-left: 1rem;">
                     <center>
                         <h><u>Fashion</u></h>
@@ -120,7 +120,7 @@
                             Fashion is a way of expressing yourself through the clothes and accessories you wear. Fashion can also reflect the culture, history, and trends of different times and places. Fashion can be influenced by many factors, such as art, music, politics, celebrities, and more. 
                     </blockquote>
                     <center>
-                        <a class="btn btn-secondary" href="fash.html" style="margin-top: 9rem;">Read More..</a>
+                        <a class="btn btn-secondary" href="fash.php" style="margin-top: 9rem;">Read More..</a>
                     </center>
                 </div>
             </div>

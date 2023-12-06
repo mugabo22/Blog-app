@@ -53,11 +53,11 @@
             <img src="Imagess/klvis.jpg" style="margin-left: 1rem;" width="400" height="200" alt="....">
             <div class="card" style="width: 400px; height: 17rem; margin-left: 1rem;">
                 <center>
-                    <h><u>Fashion</u></h>
+                    <h><u>The Preprocessor</u></h>
                 </center>
                 <blockquote>
                     <p style="margin-left: 1rem; color: black;">
-                        Fashion is a way of expressing yourself through the clothes and accessories you wear. Fashion can also reflect the culture, history, and trends of different times and places. Fashion can be influenced by many factors, such as art, music, politics, celebrities, and more. 
+                    Credit can mean the ability to buy something now and pay for it later. For example, if you use a credit card to buy a book, you are using credit. You can pay for the book later, when you receive your credit card bill.
                 </blockquote>
                 <center>
                     <a class="btn btn-secondary" href="fash.html" style="margin-top: 9rem;">Read More..</a>
