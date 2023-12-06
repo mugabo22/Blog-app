@@ -78,5 +78,6 @@
           </div>
     </center>
   </div>
+  <?php include"Includes/footer.php" ?>
 </body>
 </html>

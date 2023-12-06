@@ -13,7 +13,7 @@
        
         require_once"./dbcon.php";
 
-        $query="DELETE  FROM  students WHERE id=?";
+        $query="DELETE  FROM  add_blog WHERE id=?";
         $stmt=mysqli_prepare($connection,$query);
         mysqli_stmt_bind_param($stmt,"i",$id);
         $id=$_GET['id'];

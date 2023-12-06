@@ -45,37 +45,39 @@
         </nav>
       </div>
     </div>
-</div>
-<div style="margin-top: 3rem;">
-  <center>
-    <p style="font-size: x-large; color: white; margin-top: 5rem;"><b>CONTACT US</b></p>
-  </center>
-  <div class="card w-28 bg-dark" style="height: 40rem;">
-   <center>
-    <div class="card-header text-white">
-      Information
-    </div>
-   </center>
-    <form action="Includes/contactpro.php" method="post" style="width: 200px; margin-left: 20rem; color: white;">
-      <div class="mb-3">
-        <label for=" " class="form-label">First Name</label>
-        <input type="text" name="first_name">
-      </div>
-      <div class="mb-3">
-        <label for=" l" class="form-label">Second Name</label>
-        <input type="text" name="second_name">
-      </div>
-      <div class="mb-3">
-        <label for=" sampleInputEmail" class="form-label">Email</label>
-        <input type="email" name="email" class="form-control">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Problem</label>
-        <textarea name="complaint" style="height: 5rem; width: 15rem;"></textarea>
-      </div>
-      <input type="submit" name="submit" value="Submit" style="background-color: blue;">
-    </form>
   </div>
-</div>
+  <div style="margin-top: 3rem;">
+    <center>
+      <p style="font-size: x-large; color: white; margin-top: 5rem;"><b>CONTACT US</b></p>
+    </center>
+    <div class="card w-28 bg-dark" style="height: 40rem;">
+    <center>
+      <div class="card-header text-white">
+        Information
+      </div>
+    </center>
+      <form action="Includes/contactpro.php" method="post" style="width: 200px; margin-left: 20rem; color: white;">
+        <div class="mb-3">
+          <label for=" " class="form-label">First Name</label>
+          <input type="text" name="first_name">
+        </div>
+        <div class="mb-3">
+          <label for=" l" class="form-label">Second Name</label>
+          <input type="text" name="second_name">
+        </div>
+        <div class="mb-3">
+          <label for=" sampleInputEmail" class="form-label">Email</label>
+          <input type="email" name="email" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Problem</label>
+          <textarea name="complaint" style="height: 5rem; width: 15rem;"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  <?php include"Includes/footer.php" ?>
+
 </body>
 </html>

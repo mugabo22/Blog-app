@@ -46,11 +46,9 @@
     <div class="card mt-5" style="height: 35rem; width: 23rem;">
       <p><b>Choose a name for your blog</b></p>
       <p>This is the title that will happen on your blog</p>
-      <form method="POST" action="upload.php" enctype="multipart/form-data">
-        <input type="file" name="imageUpload" id="imageUpload">
-      </form>
-      <form action="Includes/form_processor.php" method="post">
+      <form action="Includes/form_processor.php" method="post" enctype="multipart/form-data">
         <p><input type="text" name="title" placeholder="title"  ></p>
+        <p><input type="file" name="image" ></p>
         <textarea name="description" id="" cols="30" rows="10">description</textarea>
         <p>Author: <input type="text" name="author" placeholder="author"  ></p>
         <input type="submit" name="Submit">
@@ -58,5 +56,6 @@
       </form>
     </div>
   </center>
+  <?php include"Includes/footer.php"; ?>
 </body>
 </html>

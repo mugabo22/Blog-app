@@ -22,16 +22,12 @@
     <form action="./sec.php" method="post" style="margin-top: 5rem;">
         <input type="hidden" name="id" value="<?php echo $data['id']; ?>"> 
         
-        <input type="text" name="firstname"  value="<?php echo $first_name; ?>">
+        <input type="text" name="title"  value="<?php echo $title; ?>">
     <required><br>
     
-        <input type="text" name="secondmane"  value="<?php echo $second_name; ?>">
-    
+        <input type="text" name="description"  value="<?php echo $description; ?>">
     <br>
-        <input type="text" name="phonenumber"  value="<?php echo $phonenumber; ?>">
-    
-    <br>
-        <input type="text"  name="course"  value="<?php echo $course; ?>">
+        <input type="text"  name="author"  value="<?php echo $author; ?>">
     <br>
         <input type="submit" value="Update">
     </form>

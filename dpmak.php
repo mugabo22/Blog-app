@@ -22,6 +22,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            padding:4rem;
+            position: absolute;
+            align-items: center;
+            left: 17rem;
+            top: 8rem;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -37,18 +46,20 @@
             <label for="">Second Name:</label>
             <input type="text" name="secondname">
         </div>
-        <input type="file" name="image" value="avatar">
+        <input type="file" name="image" value="avatar" class="form-control-file">
     <br/><br/>
         <button type="submit" name="submit"  >Submit</button>
     </form>
     <div>
         <?php
-            $res=mysqli_query($connection, "select * from images  ");
+            $res=mysqli_query($connection, "select * from images WHERE id=22 ");
             while ($row=mysqli_fetch_assoc($res)) {
+
+            }
 
         ?>
         <div>
-            <img src="Imagess/<?php echo $row['image'] ?>" alt="..." style="width:12rem;height:128px">
+            <img src="Imagess/<?php echo $row['image'] ?>" alt="..." style="width:15rem;height:128px">
        </div>
         
     </div>
